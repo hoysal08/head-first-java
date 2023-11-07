@@ -12,7 +12,7 @@ public class Animate {
 
     public void go() {
         JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(
+        frame.setDefaultCloseOperation( 
                 JFrame.EXIT_ON_CLOSE);
         MyDrawP drawP = new MyDrawP();
         frame.getContentPane().add(drawP);
